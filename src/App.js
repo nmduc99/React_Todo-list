@@ -11,7 +11,7 @@ class App extends Component{
       todoItems:[
         { title:'Play game', isComplete: true },
         { title:'Watch TV', isComplete: true},
-        { title:'Listen music'}
+        { title:'Listen music', isComplete: true}
       ]
     }
     this.onKeyUp= this.onKeyUp.bind(this);
